@@ -1,0 +1,6 @@
+Descripción
+
+Propuesta:
+Se desea desarrollar una página web donde se almacenen proyectos de investigación de la licenciatura en informática y medios audiovisuales
+de la universidad de córdoba, en la cual la comunidad universitaria de informática,  podrá tener acceso a dicha información que le sirva 
+como referencia para todos aquellos que quieran iniciar en el camino de la investigación y crear su propio proyecto. 
