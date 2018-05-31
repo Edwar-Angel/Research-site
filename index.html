@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Research_site</title>
+</head>
+<body>
+
+	<header>		
+		<div class="container">
+			<div class="row">
+				<div align="center" class="col-md-12">
+					<div class="logo">
+					<a href="index.html"><img src="img/unicor.jpg" alt="header" title="header" class="unicor"></a>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="navegacion"> 
+						<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+							<div class="prueba">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-ra">
+										<span class="sr-only">Desplegar / Ocultar Menu</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<a href="index.html" class="navbar-brand">Research Site</a>
+								</div>
+
+								<!-- Inicia menu -->
+								<div class="collapse navbar-collapse" id="navegacion-ra">
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="#">Inicio</a></li>
+										<li><a href="#">Blog</a></li>						
+										<li><a href="#">Contacto</a></li>
+									</ul>
+									<div class="formulario">									
+										<form action="" class="navbar-form navbar-right" role="search" id="formu">
+											<div class="form-group"> 
+												<input type="text" class="form-control" placeholder="Buscar">
+											</div>
+										</form>
+									</div>									
+								</div>
+							</div>							
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>			
+		</div>
+	</header>
+	
+	<section class="main container">
+		<div class="row">
+			<section class="posts col-md-7">
+				<article class="post clearfix">
+					<p>Si formas parte de nuestra comunidad estudiantil de LIMAV, podrás tener acceso a todos los contenidos y proyectos que son publicados por nuestros propios estudiantes, esto puede servirte como guía para desarrollar los tuyos, o tomarlos como referencia. Por otro lado también puedes tomar algún proyecto que no haya sido terminado y seguir con el. Si eres estudiante de la licenciatura en informática, sólo necesitas registrarte en este sitio y listo.</p>					
+					<div class="slider">
+          				<ul>
+              				<li> <img src="img/edificio_administrativo.png" Alt="edificio_administrativo.png" class="imagen"> </li>
+              				<li> <img src="img/edificio_de_ciencias_agronomicas.png" alt="edificio_de_ciencias_agronomicas.png" class="imagen"> </li>
+              				<li> <img src="img/edificio_de_informatica.png" alt="edificio_de_informatica.png" class="imagen"> </li>
+              				<li> <img src="img/edificio_de_limav.png" alt="edificio_de_limav.png" class="imagen"> </li>
+          				</ul>
+    				 </div>
+				</article> 
+			</section>
+
+			<aside class="col-md-5">
+				<div class="contenedor-form">
+        			<div class="toggle">
+            			<span> Crear Cuenta</span>
+        			</div>
+        
+        			<div class="formulario float:letf;">
+            			<h2>Iniciar Sesión</h2>
+            			<form action="validar.php" method="post">
+               				<input type="text" placeholder="&#128272; usurio" name="usuario" required>
+                			<input type="password" placeholder="&#128272; clave" name="clave" required>
+                			<input type="submit" value="Iniciar Sesión">
+            			</form>
+        			</div>
+        
+        			<div class="formulario">
+            			<h2>Crea tu Cuenta</h2>
+            			<form action="registrar_usuario.php" method="post" class="" onsubmit="return validar();">
+                			<input type="text" id="nombres" name="nombres" maxlength="30" placeholder="Nombres" required>
+                
+                			<input type="text" id="apellidos" name="apellidos" maxlength="80" placeholder="Apellidos" required>
+                
+                			<input type="number" id="identificacion" name="identificacion" maxlength="80" placeholder="Identificacion" required>
+                
+                			<input type="email"  id="correo" name="correo" maxlength="100" placeholder="Correo" required>
+
+                			<input type="text" id="usuario" name="usuario" maxlength="15"placeholder="Usuario" required>
+
+                			<input type="password" id="clave" name="clave" maxlength="20" placeholder="Clave" required>
+                
+                			<input type="submit" value="Registrarse">
+            			</form>
+        			</div>
+        			<div class="reset-password">
+            			<a href="#">Olvide mi Contraseña?</a>
+        			</div>
+    			</div>	
+			</aside>
+
+		</div>
+	</section>	
+	<div class="container" id="foot">
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6" id="derechos">
+							<p class="copy">&copy; Copyright 2018~2019 - Todos derechos reservados</p>
+						</div>
+						<div class="col-md-6">
+							<section id="redes-s">
+								<div class="email"> <a href="#"> </a> </div>
+								<div class="twitter"> <a href="#"> </a> </div>
+								<div class="youtube"> <a href="#"> </a> </div>
+								<div class="facebook"> <a href="https://www.facebook.com/"> </a> </div>
+							</section>	
+						</div>
+					</div>
+				</div>					
+			</footer>
+			<div id="copyright"><p>Richard Avilez Lic. Informatica y medios audiovisuales 2018.</p></div>
+		</div>		
+
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

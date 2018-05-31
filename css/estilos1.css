@@ -1,0 +1,168 @@
+		*
+		{
+
+			margin: 0;
+			padding: 0;
+
+		}
+
+
+		
+
+		body
+		{
+			width: 100%;
+			background-image: url("fondoP.jpg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+		    
+
+		}
+		
+
+	
+
+		form
+		{
+			width: 20%;
+			height: 500px;
+			border: 1px solid #fff;
+			margin: 5% auto;
+			text-align: center;
+			padding: 10px;
+			background-color: rgba(255,255,255, 0.6);
+			border-radius: 30px;
+
+		}
+
+
+		.form1
+		{
+			width: 20%;
+			height: 400px;
+			border: 1px solid #fff;
+			margin: 5% auto;
+			text-align: center;
+			padding: 10px;
+			background-color: rgba(255,255,255, 0.6);
+			border-radius: 30px;
+
+		}
+
+
+		form img
+		{
+			width: 235px;
+			height: 235px;
+			border-radius: 10px;
+			vertical-align: middle;
+            border-style: none;
+		}
+		form input
+		{
+			width: 60%; 
+			height: 30px;
+			text-align: center;
+			font-family: inherit;
+			font-size: inherit;
+			line-height: inherit;
+			border-radius: 7px;
+			border: none;  
+			text-rendering: auto;
+		    color: initial;
+		    letter-spacing: normal;
+		    word-spacing: normal;
+		    text-transform: none;
+		    text-indent: 4px;
+		    text-shadow: none;
+		    display: inline-block;
+		    text-align: start;
+		    margin: 0em;
+		    font: 400 13.3333px Arial;
+    
+    
+    
+		}
+		form button
+		{
+		    width: 30%;
+			height: 40px;
+			border: none;
+			color: #fff;
+			background-color: #28a745;
+			border-color: #28a745;
+			margin: 0;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            border-radius: 8px
+
+
+
+		}
+		form button:hover
+		{
+			cursor: pointer;
+			color: #ffffff;
+
+			background-color: #00b33c;
+			border-bottom: 1px solid #fff;
+			
+ 
+		}
+
+		ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+
+			}
+			
+			.nav li a {
+				width:317px; 
+				height: 27px;
+				text-align: center;
+				margin:0 auto;
+				background-color: rgba(255,255,255, 0.8);
+				color:#000;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+				font-family: sans-serif;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+			#header{
+				margin-top: 10%;
+			}
+
+	.navbar-brand {
+   
+}
+.navbar {
+   
+}
